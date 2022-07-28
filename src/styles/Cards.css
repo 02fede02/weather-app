@@ -1,0 +1,10 @@
+.cards-container {
+   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.no-cities-container, .input-error-container {
+  color: white;
+  font-size: large;
+}

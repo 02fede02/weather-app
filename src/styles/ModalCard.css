@@ -1,0 +1,83 @@
+.modal {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0,0,0,0.75);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url('../img/buenos-aires-bckg.jpg'); */
+}
+
+.modal.is-open {
+    display: flex;
+}
+
+.modal-container {
+    position: relative;
+    padding: 1rem;
+    min-width: 320px;
+    max-width: 480px;
+    min-height: 600px;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: #1f68ad;
+    /* background-image: url('../img/buenos-aires-bckg.jpg'); */
+    box-shadow: 5px 5px rgba(0,0,0,0.6);
+    border-radius: 1rem;
+}
+
+.modal-close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: #D5203E;
+    border-color: #D5203E;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+}
+
+.card-title {
+    color: white;
+    margin-top: 2rem;
+}
+
+
+.extrainfo-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    color: black;
+    /* background-color: black; */
+    border-style: solid;
+}
+
+.low-container {
+    padding-right: 1rem;
+}
+
+.forecast-daily{
+    display: flex;
+    justify-content: space-between;
+    position: inherit
+}
+
+.hours-container {
+    font-size: 0.8rem;
+}
+
+.forecast-icon{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.all-to-white {
+    color: white;
+}
+
